@@ -1,0 +1,67 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  /* border: 1px solid black; */
+  width: 500px;
+  display: block;
+  margin: 10px auto;
+}
+
+h4 {
+  display: block;
+  margin:10px auto;
+  font-size: 20px;
+  /* background-color: rgb(78, 78, 78); */
+  /* color: white; */
+  /* border: 1px solid rgb(78, 78, 78); */
+  width: 220px;
+  border-radius: 2px;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+#buyForm {
+  display: block;
+  margin:10px auto;
+  border: 1px solid black;
+  width: 250px
+}
+
+#inBuyForm {
+  margin-left: 20px;
+  text-align: start;
+}
+
+#coinbase {
+  font-size: 10px;
+  display: block;
+  margin:10px auto;
+  /* box-shadow: 10px 10px 8px #888888; */
+  /* background-color: black;
+  color: white; */
+  /* border: 1px solid black; */
+  width: 100px;
+}
+button {
+
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #white;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight: 300;
+  color: white;
+  background-color: rgb(65, 190, 65);
+  text-align: center;
+  transition: all 0.2s;
+  }
+button:hover{
+  color:rgb(65, 190, 65);
+  background-color: white;
+}
